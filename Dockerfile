@@ -1,5 +1,5 @@
 FROM debian:testing-slim
 
-RUN	sudo apt-get update \
-     &&	sudo apt-get install -y devscripts
+RUN	apt-get update \
+     &&	apt-get install -y devscripts sudo git 
 
